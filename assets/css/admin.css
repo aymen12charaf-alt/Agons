@@ -1,0 +1,90 @@
+/* إعدادات عامة */
+.mvp-vendors-list {
+    margin-top: 20px;
+}
+
+/* تنسيق الجدول */
+.mvp-vendors-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mvp-vendors-list th {
+    text-align: right;
+    padding: 10px;
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.mvp-vendors-list td {
+    padding: 12px 10px;
+}
+
+/* تنسيق حالة البائع */
+.mvp-status {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.mvp-status.status-approved {
+    background: #dff0d8;
+    color: #3c763d;
+}
+
+.mvp-status.status-pending {
+    background: #fcf8e3;
+    color: #8a6d3b;
+}
+
+/* أزرار الإجراءات */
+.mvp-vendors-list .button {
+    margin-right: 5px;
+}
+
+.mvp-vendors-list .approve-vendor {
+    background: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+}
+
+.mvp-vendors-list .approve-vendor:hover {
+    background: #449d44;
+    border-color: #398439;
+}
+
+/* نموذج الإعدادات */
+.mvp-settings-form {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.mvp-settings-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.mvp-settings-form input[type="number"] {
+    width: 100px;
+}
+
+/* رسائل النجاح والخطأ */
+.mvp-notice {
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+.mvp-notice.success {
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.mvp-notice.error {
+    background: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
